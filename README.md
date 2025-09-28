@@ -36,5 +36,5 @@
 | Thư mục người dùng & tiện ích     | `xdg-user-dirs`, `xdg-utils`                                                                 | Tên tương tự                                                         |
 | Fonts                             | `ttf-jetbrains-mono-nerd`, `ttf-dejavu` *(hoặc `noto-fonts`)*                                | Thêm `noto-fonts-emoji` nếu cần emoji                                |
 | Icons                             | `papirus-icon-theme`, `otf-font-awesome`, `woff2-font-awesome`                               | Tên tương tự                                                         |
-
+| plugins                           |  'hyprscrolling'                                                                             | giúp các terminal hoạt động giống niri                               |
 | Công cụ AUR/other                 | `yay`, `hyprsysteminfo`, `ngrok`                                                             | Distro khác: dùng package manager/flatpak tương đương                |
