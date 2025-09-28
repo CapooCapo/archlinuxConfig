@@ -6,6 +6,10 @@
 <h2><a href="https://ghostty.org/" > TERMINAL :3 </a></h2>
 <img width="1916" height="1078" alt="image" src="https://github.com/user-attachments/assets/b532e28e-5036-4111-a9f3-ce2b6cad2dbb" />
 
+<h2><a href="https://github.com/Hazhaz1412" > WALLPCIKER <3 </a></h2>
+<img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/930231b8-b5ca-4d60-ad13-2b546e8a5fc6" />
+
+
 <h2><< DEPENDENCY YOU NEED >> </h2>
 
 | Nhóm chức năng                    | Tên gói (Arch)                                                                               | Tương đương / ghi chú (Ubuntu/Debian/Fedora/Khác)                    |
