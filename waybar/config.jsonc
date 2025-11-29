@@ -7,7 +7,7 @@
         "margin-left": 0,
         "margin-right": 0,
         "modules-left": [
-            "custom/launcher",
+            "custom/swaync",
             "hyprland/workspaces",
             "custom/playerctl",
             "custom/playerlabel"
@@ -158,22 +158,6 @@
                 ""
             ]
         },
-        "custom/launcher": {
-            "format": "󰈸",
-            "on-click": "bash $HOME/.config/rofi/launcher.sh",
-            "on-click-right": "bash $HOME/.config/rofi/run.sh",
-        }
-    },
-    {
-        "position": "left",
-        "layer": "top",
-        "modules-left": [
-            "custom/swaync"
-        ],
-        "modules-center": [
-            "cpu",
-            "memory"
-        ],
         "custom/swaync": {
             "return-type": "json",
             "exec": "swaync-client -swb",
@@ -190,20 +174,6 @@
             "on-click-middle": "swaync-client -C -sw",
             "tooltip": true,
             "min-length": 2
-        },
-        "memory": {
-            "format": "󰍛 {}%",
-            "format-alt": "{used} GiB",
-            "interval": 5,
-            "on-click-right": "ghostty -e btop",
-            "min-length":7
-        },
-        "cpu": {
-            "format": "󰻠 {usage}%",
-            "format-alt": "{avg_frequency} GHz",
-            "interval": 5,
-            "on-click-right": "ghostty -e btop",
-            "min-length":7
-        },
+        }
     }
 ]
